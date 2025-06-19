@@ -1,0 +1,29 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Градиентный круглый фон -->
+  <circle cx="32" cy="32" r="30" fill="url(#seoGradient)"/>
+  
+  <!-- Основной графический элемент - диаграмма с лупой -->
+  <path d="M42 28C42 35.732 35.732 42 28 42C25.8783 42 23.8434 41.4137 22 40.3607L18 44L16 42L20 38.0001C18.5863 36.1566 18 34.1217 18 32C18 24.268 24.268 18 32 18C39.732 18 46 24.268 46 32H42V28Z" fill="white"/>
+  
+  <!-- Детали диаграммы -->
+  <path d="M28 22V38" stroke="#4361EE" stroke-width="3" stroke-linecap="round"/>
+  <path d="M22 28H38" stroke="#F72585" stroke-width="3" stroke-linecap="round"/>
+  <path d="M25 25L35 35" stroke="#7209B7" stroke-width="3" stroke-linecap="round"/>
+  
+  <!-- Внешняя лупа -->
+  <circle cx="32" cy="32" r="20" stroke="white" stroke-width="2" stroke-dasharray="3 3"/>
+  
+  <!-- Точки на графике -->
+  <circle cx="28" cy="24" r="2" fill="#4361EE"/>
+  <circle cx="24" cy="28" r="2" fill="#F72585"/>
+  <circle cx="32" cy="32" r="2" fill="white"/>
+  <circle cx="36" cy="36" r="2" fill="#7209B7"/>
+  <circle cx="28" cy="36" r="2" fill="#4CC9F0"/>
+  
+  <defs>
+    <linearGradient id="seoGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#7209B7"/>
+      <stop offset="100%" stop-color="#4361EE"/>
+    </linearGradient>
+  </defs>
+</svg>
